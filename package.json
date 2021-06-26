@@ -4,7 +4,8 @@
   "description": "",
   "main": "func.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc func.ts & node func.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,8 @@
   "homepage": "https://github.com/marciorvneto/test_jenkins#readme",
   "devDependencies": {
     "tsc": "^2.0.3"
+  },
+  "dependencies": {
+    "typescript": "^4.3.4"
   }
 }
